@@ -47,7 +47,33 @@ CREATE TABLE users (
 );
 ```
 
-Update `backend/src/main/resources/application.properties` if your MySQL username or password is different.
+The default backend configuration uses local MySQL:
+
+```properties
+DB_URL=jdbc:mysql://localhost:3306/user_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+For Railway or another remote MySQL server, set these environment variables before starting Spring Boot.
+
+PowerShell:
+
+```bash
+$env:DB_URL="jdbc:mysql://HOST:PORT/DATABASE?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&connectTimeout=10000&socketTimeout=30000"
+$env:DB_USERNAME="YOUR_USERNAME"
+$env:DB_PASSWORD="YOUR_PASSWORD"
+```
+
+Command Prompt:
+
+```bat
+set DB_URL=jdbc:mysql://HOST:PORT/DATABASE?useSSL=false^&allowPublicKeyRetrieval=true^&serverTimezone=UTC^&connectTimeout=10000^&socketTimeout=30000
+set DB_USERNAME=YOUR_USERNAME
+set DB_PASSWORD=YOUR_PASSWORD
+```
+
+If startup shows `Communications link failure`, the backend cannot reach the MySQL host/port. Check that the database service is running, the public host and port are correct, and your network/firewall allows outbound TCP access to that port.
 
 ## Backend Run Instructions
 
