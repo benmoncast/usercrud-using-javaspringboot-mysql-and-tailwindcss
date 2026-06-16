@@ -1,0 +1,17 @@
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\config\CorsConfig.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\config\PasswordConfig.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\controller\UserController.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\dto\ApiResponse.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\dto\UserCreateRequest.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\dto\UserFormRequest.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\dto\UserResponse.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\dto\UserUpdateRequest.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\entity\User.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\exception\DuplicateResourceException.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\exception\FileStorageException.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\exception\GlobalExceptionHandler.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\exception\ResourceNotFoundException.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\repository\UserRepository.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\service\impl\UserServiceImpl.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\service\UserService.java
+D:\UCLM-Materials\ITELECT\June 2026\user-fbprofile - Copy - Copy\backend\src\main\java\com\example\userprofile\UserProfileCrudAppApplication.java
