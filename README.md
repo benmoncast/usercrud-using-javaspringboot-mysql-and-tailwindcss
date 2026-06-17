@@ -47,15 +47,18 @@ CREATE TABLE users (
 );
 ```
 
-The default backend configuration uses local MySQL:
+The backend reads database credentials from environment variables. For local development, create `backend/.env` from `backend/.env.example`:
 
 ```properties
-DB_URL=jdbc:mysql://localhost:3306/user_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+DB_URL=jdbc:mysql://localhost:3306/user_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&connectTimeout=10000&socketTimeout=30000
 DB_USERNAME=root
 DB_PASSWORD=
+APP_CORS_ALLOWED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
 ```
 
-For Railway or another remote MySQL server, set these environment variables before starting Spring Boot.
+`backend/.env` is ignored by Git so secrets do not get pushed. Keep only `backend/.env.example` in Git.
+
+For Railway or another remote MySQL server, set these environment variables in the hosting dashboard instead of hardcoding them in `application.properties`.
 
 PowerShell:
 
